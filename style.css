@@ -1,0 +1,237 @@
+/**************** GENERALT ***********************/
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+
+/**************** BODY *************************/
+body {
+    margin-left: auto;
+    margin-right: auto;
+    /*background-image: url("billeder/bg.png");*/
+    background-color: black;
+    
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+
+/************ NAV **************/
+#top {
+   background-color: rgb(0, 0, 0);
+}
+
+@keyframes nav {
+    from{
+        font-size: 20pt;
+        color: white;
+        }
+    to{
+        font-size: 25pt;
+        color: #c400ff;
+    }
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+
+    }
+
+nav a {
+    color: white;
+    font-size: 20pt;
+    text-decoration: none;
+    font-family: 'Jockey One', sans-serif;
+}
+
+nav a:hover{
+    animation-name: nav;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    
+}
+
+
+
+
+
+/******************* MAIN ***********************/
+
+/**
+#top-img {
+    background-image: url("billeder/thevibe.png");
+    max-width: 100%;  
+    height: 995px;
+}
+**/
+
+
+#intro-teskst, h1, h3{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Jockey One', sans-serif;
+}
+
+#info-tekst{
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+    color: white;
+    padding-top: 50px;
+    font-family: 'Jockey One', sans-serif;
+}
+
+#åbningstider{
+    color: white;
+    text-align: center;
+    font-family: 'Jockey One', sans-serif;
+    
+}
+
+.kort{
+    background-color: #fffeef;
+    justify-content: space-around;
+    color: #0b0b0b;
+    margin-bottom: 20px;
+}
+
+.kort > section{
+    width: 350px;
+    height:500px;
+    margin-top: 10px;
+    padding:10px;
+    text-align: center;
+}
+
+.kort img:hover {
+    transform: scale(1.1);
+}
+
+.bordpakker{
+    width: 350px;
+    height: 350px;
+    background-color: #fffeef;
+    color: black;
+    text-decoration: #fffeef;
+}
+
+.bordpakker div h4{
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+/****************** FOOTER *********************/
+
+header {
+    border-bottom: solid 2px;
+    border-color: #c400ff;
+    padding-top: 0%;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #5CB8E4;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.foot {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.kort{
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.kort > section{
+    width: 300px;
+    height:300px;
+    background-color:black;
+    margin-top: 10px;
+    padding:10px;
+    text-align: center;
+}
+
+.kort img:hover {
+    transform: scale(1.1);
+}
+
+.plasholder{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    color: black;
+    text-decoration: #fffeef;
+    border-radius: 8%;
+}
+
+.pladsholder div h4{
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.overskriftmenu{
+    text-align: center;
+    font-family: 'Jockey One', sans-serif;
+    color: #fffeef;
+}
+
+.drinkskort{
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.drinkskort> section{
+    width: 300px;
+    height:300px;
+    background-color:black;
+    margin-top: 10px;
+    padding:10px;
+    text-align: center;
+}
+
+.femkolloner{
+    width: 300px;
+    height: 300px;
+    background-color: #5CB8E4;
+    color: black;
+    text-decoration: #fffeef;
+}
+
+.billeder{
+    border-radius: 8%;
+}
